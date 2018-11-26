@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-chatapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Taha TEPEDELEN <mustafatahatepedelen@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/aslanyi/nodejs-chat"
+}

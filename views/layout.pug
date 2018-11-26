@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    block stylesheets
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet")
+      
+  body
+    div(ng-app='chatAPP',ng-cloak)
+      block content
+
+block scripts
+  script(src="angular/angular.min.js")
+  script(src="/javascripts/main.js")
+  
+  
