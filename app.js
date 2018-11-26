@@ -9,8 +9,6 @@ const session = require('express-session');
 dotenv.config();
 
 //routers
-
-
 const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth');
 const chatRouter = require('./routes/chat');
